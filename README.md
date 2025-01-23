@@ -1,4 +1,4 @@
-# Fall Detection System
+# Fall Detection Model
 
 ## Overview
 A computer vision-based fall detection system designed to identify falls in videos using pose estimation and Temporal Convolutional Networks (TCNs). The system processes 15-frame sliding windows, extracts normalized joint locations from 17 keypoints using pose estimation, and applies TCNs for accurate and efficient fall detection.
@@ -16,7 +16,7 @@ A computer vision-based fall detection system designed to identify falls in vide
 ---
 
 ## Introduction
-Falls are a major health concern, especially for elderly individuals or patients in hospitals. This project aims to provide an efficient fall detection system using pose estimation and Temporal Convolutional Networks (TCNs). The system processes 15-frame sliding windows, extracts normalized joint locations from 17 keypoints using pose estimation, and applies TCNs for fall classification.
+Falls are a major health concern, especially for elderly individuals or patients in hospitals. This project aims to provide an efficient fall detection model using pose estimation and Temporal Convolutional Networks (TCNs). The system processes 15-frame sliding windows, extracts normalized joint locations from 17 keypoints using pose estimation, and applies TCNs for fall classification.
 
 ---
 
