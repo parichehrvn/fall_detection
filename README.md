@@ -7,7 +7,7 @@ A computer vision-based fall detection system designed to identify falls in vide
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#Features)
-- [Setup Instructions](#Setup Instructions)
+- [Installation](#Installation)
 - [Usage](#Usage)
 - [References](#References)
 - [Contributing](#contributing)
@@ -27,7 +27,7 @@ Falls are a major health concern, especially for elderly individuals or patients
 
 ---
 
-## Setup Instructions
+## Installation
 ### Prerequisites
 - Python 3.9.20 or later
 - Required libraries:
@@ -44,16 +44,16 @@ cd fall-detection
 ---
 
 ## Usage
-This project includes two main components: pose estimation and fall detection using Temporal Convolutional Networks (TCNs). As such, two types of datasets are required to train and evaluate each part.
+This project includes two main components: **pose estimation** and **fall detection** using Temporal Convolutional Networks (TCNs). As such, two types of datasets are required to train and evaluate each part.
 
 ## **Pose Estimation**
 For the pose estimation component, we fine-tuned the yolov11-pose model from the Ultralytics library using the Fall_Simulation_Data [1] dataset. The goal was to adapt the pose model to accurately identify joint locations in fall scenarios.
 
 ### Data Preparation:
 
-#### We selected a subset of fall videos from the dataset.
-#### Keyframes were extracted and annotated in the YOLO pose format using CVAT.
-#### The processed dataset is located in the **cfg/dataset/pose directory**.
+* We selected a subset of fall videos from the dataset.
+* Keyframes were extracted and annotated in the YOLO pose format using CVAT.
+* The processed dataset is located in the **cfg/dataset/pose directory**.
 
 ### Fine-Tuning the Pose Model:
 
@@ -173,9 +173,8 @@ python fall_cli.py inference --source /path/to/video.mp4 --pose_model /path/to/b
 ## Results
 ### Example Output
 
-#### Fall Detection:
-![Fall Detection Example](results/fall_detection_fall95.mp4)
-![Fall Detection Example](results/fall_detection_fall175.mp4)
+<video src="results/fall_detection_fall95.mp4" controls="controls" style="max-width: 100%;">
+</video>
 
 ---
 
