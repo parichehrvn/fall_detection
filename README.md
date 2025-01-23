@@ -173,8 +173,8 @@ python fall_cli.py inference --source /path/to/video.mp4 --pose_model /path/to/b
 ## Results
 ### Example Output
 
-<video src="results/fall_detection_fall95.mp4" controls="controls" style="max-width: 100%;">
-</video>
+![Fall Detection Example](results/fall_detection_fall95.mp4)
+![Fall Detection Example](results/fall_detection_fall175.mp4)
 
 ---
 
