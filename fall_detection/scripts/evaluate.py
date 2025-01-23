@@ -78,7 +78,7 @@ def evaluate_model(model, data_loader, criterion=None, device=torch.device('cpu'
 def evaluate(model_path, dataset_dir, batch_size, split='val'):
     # Prepare the validation data
     data_dir = Path(dataset_dir)
-    ADL_dir = data_dir / 'train' / 'ADL'
+    ADL_dir = data_dir / 'val' / 'ADL'
     seq_len = len(os.listdir(os.path.join(ADL_dir, os.listdir(ADL_dir)[0]))) - 1
     dataset = FallDetectionDataset(data_dir, split=split, seq_len=seq_len, num_keypoints=34)
     data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=False)

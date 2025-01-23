@@ -7,7 +7,7 @@ from utils.frame_utils import extract_key_frames
 from pose_estimation import load_pose_model, pose_inference
 
 
-def extract_and_save_key_frames(video_path: Path, save_path: Path, num_keyframes: int):
+def extract_and_save_key_frames(video_path: Path, save_path: Path, num_keyframes=15):
     """
     Extract and save key frames from a video.
     Args:

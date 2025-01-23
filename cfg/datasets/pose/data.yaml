@@ -1,0 +1,17 @@
+# data.yaml for YOLO pose estimation
+
+# Paths to image directories
+train: images/train
+val: images/val
+test: images/test  # Optional
+
+# Number of classes (e.g., 1 class for 'person' in pose estimation)
+nc: 1
+
+# Keypoints
+kpt_shape: [17, 3] # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+
+
+# Class names
+names: ['person']
+
