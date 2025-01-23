@@ -180,7 +180,7 @@ python fall_cli.py inference --source /path/to/video.mp4 --pose_model /path/to/b
 
 ## References
 [1] Baldewijns, G., Debard, G., Mertes, G., Vanrumste, B., Croonenborghs, T. (2016). Bridging the gap between real-life data and simulated data by providing realistic fall dataset for evaluating camera-based fall detection algorithms. Healthcare Technology Letters.
-[2] "I. Charfi, J. Mitéran, J. Dubois, M. Atri, R. Tourki, "Optimised spatio-temporal descriptors for real-time fall detection: comparison of SVM and Adaboost based classification, Journal of Electronic Imaging (JEI), Vol.22. Issue.4, pp.17, October 2013. "
+[2] I. Charfi, J. Mitéran, J. Dubois, M. Atri, R. Tourki, "Optimised spatio-temporal descriptors for real-time fall detection: comparison of SVM and Adaboost based classification, Journal of Electronic Imaging (JEI), Vol.22. Issue.4, pp.17, October 2013.
 
 ---
 
