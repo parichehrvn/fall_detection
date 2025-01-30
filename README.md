@@ -28,18 +28,19 @@ Falls are a major health concern, especially for elderly individuals or patients
 ---
 
 ## Installation
-### Prerequisites
-- Python 3.9.20 or later
-- Required libraries:
-  ```bash
-  pip install -r requirements.txt
-  ```
 
 ### Cloning the Repository
 ```bash
 git clone https://github.com/parichehrvn/fall-detection.git
 cd fall-detection
 ```
+
+### Prerequisites
+- Python 3.9.20 or later
+- Required libraries:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ---
 
